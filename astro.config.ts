@@ -1,7 +1,7 @@
-import type { AstroUserConfig } from 'astro';
+import { defineConfig } from "astro/config";
+import tokencss from "@tokencss/astro";
 
-const config: AstroUserConfig = {
-  renderers: [],
-};
-
-export default config;
+// https://astro.build/config
+export default defineConfig({
+  integrations: [tokencss()],
+});

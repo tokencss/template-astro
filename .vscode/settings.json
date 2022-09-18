@@ -1,0 +1,5 @@
+{
+  "editor.colorDecorators": false,
+  "editor.semanticHighlighting.enabled": true,
+  "astro.css.documentColors.enabled": false
+}
